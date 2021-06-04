@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #8e44ad;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.img-fluid{
+    height: 10%;
+    width: 10%;
+}
+.container{
+    width: 400px;
+    background-color: #fff;
+    border-radius: 4px;
+    overflow:hidden;
+}
+.header{
+    background-color: white;
+    padding: 10px 20px;
+}
+.form{
+    padding: 20px 40px;
+}
+.found-control{
+    margin-bottom:10px;
+    padding-bottom: 10px;
+    position:relative;
+}
+.found-control label{
+  dispaly:inline-block; 
+  margin-bottom: 5px; 
+}
+.found-control.success input{
+    border: 2px solid greenyellow;
+}
+.found-control.error input{
+    border: 2px solid rgb(255, 47, 47);
+}
+.found-control input{
+ display: block;
+ width:100%;
+ padding:10px;
+border-radius: 4px;
+border:2px solid grey;
+}
+.found-control small{
+    position: absolute;
+    margin:3px;
+    visibility: hidden;
+}
+button{
+    background-color:#8e44ad;
+    color: #fff;
+    padding: 10px 20px;
+    width:100%;
+    border-radius:4px;
+    border:2px solid #8e44ad;
+
+}
